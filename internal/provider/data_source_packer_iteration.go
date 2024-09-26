@@ -2,7 +2,7 @@ package provider
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	sharedmodels "github.com/hashicorp/hcp-sdk-go/clients/cloud-shared/v1/models"

@@ -2,7 +2,7 @@ package provider
 
 import (
 	"context"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	boundarymodels "github.com/hashicorp/hcp-sdk-go/clients/cloud-boundary-service/preview/2021-12-21/models"

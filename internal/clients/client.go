@@ -3,7 +3,7 @@ package clients
 import (
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	cloud_network "github.com/hashicorp/hcp-sdk-go/clients/cloud-network/preview/2020-09-07/client"
